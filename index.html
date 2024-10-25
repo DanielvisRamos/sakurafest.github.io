@@ -176,14 +176,17 @@
       <div class="modal-body">
         <!-- Aquí va el contenido del formulario o la subventana -->
         <p class="form-p">¡Inscríbete ahora y sé parte del evento!</p>
-        <form>
+        <form  action="https://formspree.io/f/mwpkpdnv"
+        method="POST">
           <div class="mb-3">
+            <input type="hidden" name=" " value=" Hola me gustaria ser parte de sakura Fest">
+            <input type="hidden" name=" " value="estos son mis datos:">
             <label for="nombre" class="form-label">Nombre completo</label>
-            <input type="text" class="form-control" id="nombre" required>
+            <input type="text" class="form-control" name="nombre" id="nombre" required>
           </div>
           <div class="mb-3">
             <label for="email" class="form-label">Correo electrónico</label>
-            <input type="email" class="form-control" id="email" required>
+            <input type="email" class="form-control" name="email" id="email" required>
           </div>
           <button type="submit" class="btn">Enviar</button>
         </form>
