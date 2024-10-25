@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sakurafest</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Oswald:wght@200..700&display=swap');
+    </style>
+</head>
+<body>
+  <!--navbar-->
+  <nav class="navbar fixed-top navbar-expand-lg navbar-dark p-md-3" id="navbar">
+    <div class="container">
+      <img src="img/logo.png" height="80px" class="navbar-brand logo" alt="Logo">
+      <button type="button" class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle Navbar">
+      <span class="navbar-toggler-icon"></span></button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <div class="mx-auto"></div>
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a href="#" class="nav-link text-white">Inicio</a></li>
+          <li class="nav-item"><a href="#servicios" class="nav-link text-white">Servicios</a></li>
+          <li class="nav-item"><a href="#nosotros" class="nav-link text-white">Nosotros</a></li>
+          <button class="btn btn-dark registrar" data-bs-toggle="modal" data-bs-target="#formaParteModal">Forma parte</button>
+
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!--banner-->
+  <section class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
+    <div class="content text-center">
+      <h1 class="text-white home">Sakura Fest</h1>
+      <p class="slogan">"Posiciona tu marca en el corazón de Sakura Fest: ¡Reserva tu stand hoy!"</p>
+    </div>
+  </section>
+
+  <!-- Servicios Seccion -->
+  <section id="servicios" class="py-5">
+    <div class="container text-center">
+      <h2 class="text-center mb-5">Nuestros Servicios</h2>
+      <div class="row justify-content-center">
+
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body text-center">
+              <i class="fas fa-store fa-3x mb-3"></i>
+              <h5 class="card-title">Reservación de stand</h5>
+              <p class="card-text">Te ofrecemos la oportunidad de reservar tu stand para este emocionante evento lleno de cultura y diversión. Nuestros stands están diseñados para brindarte la mejor visibilidad y conexión con los asistentes. La compra de un stand incluye servicios básicos como hidratación, publicidad y seguridad. No pierdas la oportunidad de ser parte de esta celebración única.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 mb-4">
+          <div class="card h-100 shadow-sm">
+            <div class="card-body text-center">
+              <i class="fas fa-calendar-alt fa-3x mb-3"></i>
+              <h5 class="card-title">Inscripción de actividades</h5>
+              <p class="card-text">¡Inscríbete ahora para ser parte de las emocionantes actividades del Sakura Fest! Te invitamos a participar en nuestras vibrantes presentaciones de música en vivo y danza, donde podrás mostrar tu talento o simplemente disfrutar del espectáculo. Además, no te pierdas la oportunidad de brillar en nuestra competencia de disfraces, donde la creatividad y el estilo son clave.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <p class="mt-5">En Sakura Fest ofrecemos una variedad de servicios diseñados para que tu participación en el evento sea exitosa y memorable. Reserva tu espacio o inscríbete en nuestras actividades para ser parte de esta experiencia única.</p>
+    </div>
+  </section>
+
+</section>
+
+<!-- Sección Nosotros Mejorada -->
+<section id="nosotros" class="py-5" style="background-color: #ce8ca5;">
+  <div class="container text-center text-white">
+    <h2 class="mb-5">Nosotros</h2>
+
+    <!-- Misión con icono -->
+    <div class="row mb-5 align-items-center">
+      <div class="col-lg-4 text-center">
+        <i class="fas fa-bullseye ico-anima fa-4x mb-3 text-white"></i>
+      </div>
+      <div class="col-lg-8 text-lg-start">
+        <h3 class="mb-3">Misión</h3>
+        <p class="lead">Nuestra misión es crear experiencias únicas y memorables que fortalezcan el sentido de comunidad y celebren la creatividad local. A través de eventos como el Sakura Fest, buscamos ofrecer espacios donde las personas puedan conectarse, expresarse y disfrutar juntos, mientras apoyamos a emprendedores, artistas y talentos locales.</p>
+      </div>
+    </div>
+
+    <!-- Visión con icono -->
+    <div class="row mb-5 align-items-center">
+      <div class="col-lg-4 text-center">
+        <i class="fas fa-eye fa-4x mb-3 ico-anima text-white"></i>
+      </div>
+      <div class="col-lg-8 text-lg-start">
+        <h3 class="mb-3">Visión</h3>
+        <p class="lead">Aspiramos a ser la principal plataforma de eventos comunitarios en la región, reconocida por promover la cultura, el arte y la diversidad. Nuestro objetivo es que cada evento que organizamos no solo entretenga, sino que también enriquezca la vida de las personas, inspirando un sentido de pertenencia y colaboración dentro de nuestra comunidad.</p>
+      </div>
+    </div>
+
+    <!-- Reseña Histórica con icono -->
+    <div class="row align-items-center">
+      <div class="col-lg-4 text-center">
+        <i class="fas fa-history fa-4x ico-anima mb-3 text-white"></i>
+      </div>
+      <div class="col-lg-8 text-lg-start">
+        <h3 class="mb-3">Reseña Histórica de Sakura Fest</h3>
+        <p class="lead">El Sakura Fest nació el 28 de octubre de 2023, como una iniciativa individual en el corazón del Parque Musiú Carmelo. Desde sus inicios, el evento ha sido un espacio para reunir a la comunidad en torno a la cultura, el arte, y la diversión. Con la visión de crear experiencias únicas, el Sakura Fest ha crecido significativamente, incorporando diversas temáticas.</p>
+        <p class="lead">Lo que comenzó como un proyecto personal ha evolucionado en un evento destacado en la región, atrayendo a entusiastas del arte, la música y la cultura pop. A través de la dedicación y el esfuerzo constante, el Sakura Fest se ha consolidado como un punto de encuentro para la comunidad, donde cada evento es una oportunidad para conectar, celebrar y disfrutar en compañía de otros.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="pt-5 pb-4 bg-white text-dark">
+  <div class="container text-center text-md-start">
+    <div class="row">
+
+      <!-- Sección de Contacto -->
+      <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold t-footer">Contacto</h5>
+        <hr class="mb-4" style="border-color: #ce8ca5;">
+        <p><i class="fas fa-phone me-2"></i>0255-6633231</p>
+        <p><i class="fas fa-envelope me-2"></i>sakurafest28@gmail.com</p>
+        <p><i class="fas fa-home me-2"></i>Parque Recreacional Musiú Carmelo, Acarigua Edo - Portuguesa</p>
+        
+        
+      </div>
+
+      <!-- Sección de Redes Sociales -->
+      <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3">
+        <h5 class="text-uppercase mb-4 font-weight-bold t-footer text-center">Síguenos</h5>
+        <hr class="mb-4" style="border-color: #ce8ca5;">
+        <ul class="list-unstyled list-inline">
+          <li class="list-inline-item">
+            <a href="https://www.facebook.com/profile.php?id=100091100321764" target="_blank" class="text-dark social-icon"><i class="fab fa-facebook-f ico-anima fa-lg"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.instagram.com/sakurafest.aca/profilecard/?igsh=dHkzdTFudzg3cXZl" class="text-dark social-icon" target="_blank"><i class="fab fa-instagram ico-anima fa-lg"></i></a>
+          </li>
+          <li class="list-inline-item">
+            <a href="https://www.tiktok.com/@sakura.fest?_t=8qpFeY8fgvN&_r=1" class="text-dark social-icon" target="_blank"><i class="fab fa-tiktok ico-anima fa-lg"></i></a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Sección de Derechos -->
+      <div class="col-md-4 col-lg-4 col-xl-4 mx-auto mt-3 text-md-right">
+        <h5 class="text-uppercase mb-4 font-weight-bold t-footer">© 2024 Sakura Fest</h5>
+        <hr class="mb-4" style="border-color: #ce8ca5;">
+        <p>Todos los derechos reservados.</p>
+        <p>Desarrollado por <a href="#" class="text-dark"><strong>Sakura Fest</strong></a></p>
+      </div>
+
+    </div>
+
+    <!-- Separador Final -->
+    <hr class="mb-4" style="border-color: #ce8ca5;">
+
+    <!-- Texto de pie -->
+    <div class="text-center">
+      <p>Conectando cultura, arte y comunidad.</p>
+    </div>
+  </div>
+</footer>
+
+  <!-- Modal -->
+<div class="modal fade" id="formaParteModal" tabindex="-1" aria-labelledby="formaParteModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="formaParteModalLabel">Forma Parte De Sakura Fest</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <!-- Aquí va el contenido del formulario o la subventana -->
+        <p class="form-p">¡Inscríbete ahora y sé parte del evento!</p>
+        <form>
+          <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre completo</label>
+            <input type="text" class="form-control" id="nombre" required>
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Correo electrónico</label>
+            <input type="email" class="form-control" id="email" required>
+          </div>
+          <button type="submit" class="btn">Enviar</button>
+        </form>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script>
+    var nav = document.querySelector('nav');
+    window.addEventListener('scroll', function() {
+      if (window.pageYOffset > 600) {
+        nav.classList.add('navbar-scrolled');
+      } else {
+        nav.classList.remove('navbar-scrolled');
+      }
+    });
+  </script>
+</body>
+</html>

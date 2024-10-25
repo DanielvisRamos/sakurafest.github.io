@@ -1,0 +1,204 @@
+*{
+    font-family: inter;
+}
+/*fondo*/
+.banner-image{
+    background-image: url(../img/fondo_prueba.jpg);
+    background-size: cover;
+    background-position: center;}
+/*navbar*/
+.navbar {
+    background-color: transparent;
+    transition: background-color 0.3s ease;
+}
+
+.navbar-scrolled {
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.nav-link{
+    font-weight: bold;
+}
+.nav-link:hover{
+    background-color: #ce8ca5;
+    border-radius: 50px;
+    transition: 2s;
+}
+.btn{
+    background-color: #ce8ca5;
+}
+/*banner*/
+.home{
+    font-size: 99px;
+}
+.slogan{
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 20px;
+    color: #ce8ca5;
+    
+}
+
+
+/* responsi*/
+@media (max-width: 991.98px) {
+    .navbar-nav {
+        text-align: right; /* Alinear los links a la derecha */
+    }
+
+    .nav-item {
+        margin-bottom: 10px; /* Separación entre los links */
+    }
+
+    .nav-link {
+        background-color: transparent; /* Sin fondo inicialmente */
+        border-radius: 10px; /* Borde redondeado */
+        padding: 10px; /* Espacio interno */
+        width: 100%; /* Que abarque todo el ancho */
+        transition: background-color 0.3s ease;
+    }
+
+    .nav-link:hover {
+        background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro al pasar el cursor */
+        color: white; /* Asegurar que el texto se mantenga blanco */
+    }
+
+    .registrar{
+        margin-left: 40px;
+    }
+
+    .nav-link{
+        font-weight: bold;
+    }
+}
+
+/*servicios*/
+#services h2 {
+    color: #333;
+}
+
+.card {
+    border-radius: 15px;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-text {
+    font-size: 1rem;
+    color: #6c757d;
+}
+
+.card i {
+    color: #ce8ca5;
+}
+
+#services p {
+    font-size: 1.1rem;
+    color: #6c757d;
+}
+
+/* Estilos para la sección Nosotros */
+#nosotros h2 {
+    font-family: 'Oswald', sans-serif;
+    color: white;
+    font-size: 2.5rem;
+    margin-bottom: 40px;
+}
+
+#nosotros p.lead {
+    font-size: 1.15rem;
+}
+
+#nosotros h3 {
+    font-size: 1.75rem;
+    font-family: 'Oswald', sans-serif;
+    margin-bottom: 20px;
+}
+
+#nosotros i {
+    color: white;
+    transition: color 0.3s;
+}
+
+#nosotros i:hover {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#nosotros .container {
+    padding: 50px 0;
+}
+.ico-anima{
+    transition: transform 0.3s ease;
+
+}
+.ico-anima:hover{
+    transform: scale(1.05);
+}
+
+/* Footer personalizado */
+footer {
+    background-color: #ffffff;
+    color: #333;
+  }
+  
+  footer h5 {
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5rem;
+    color: #333;
+  }
+  
+  footer p, footer a {
+    font-size: 1.1rem;
+  }
+  
+  footer hr {
+    width: 50px;
+    border-top: 2px solid #ce8ca5;
+    margin: 0 auto;
+  }
+  
+  /* Efectos en redes sociales */
+  .social-icon {
+    font-size: 1.5rem;
+    transition: transform 0.3s ease, color 0.3s ease;
+  }
+  
+  .social-icon:hover {
+    color: #ce8ca5; /* Cambia a rosa en hover */
+    transform: scale(1.2); /* Agrandar ligeramente al pasar el mouse */
+  }
+  
+  /* Estilo responsive para dispositivos móviles */
+  @media (max-width: 767.98px) {
+    footer .text-md-right {
+      text-align: center;
+    }
+  
+    footer hr {
+      margin: 10px auto;
+    }
+  }
+  
+  /* Estilo para enlaces de derechos */
+  footer a:hover {
+    color: #ce8ca5;
+    text-decoration: underline;
+  }
+  
+  
+.form-p{
+    text-align: center;
+}
+.btn{
+    border: 1px solid #c96189;
+}
+.btn:hover{
+    background-color: #c96189;
+}
