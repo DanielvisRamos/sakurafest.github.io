@@ -35,8 +35,8 @@
   <!--banner-->
   <section class="banner-image w-100 vh-100 d-flex justify-content-center align-items-center">
     <div class="content text-center">
-      <h1 class="text-white home about-section scroll-anim right">Sakura Fest</h1>
-      <p class="slogan about-section scroll-anim left">"Posiciona tu marca en el corazón de Sakura Fest: ¡Reserva tu stand hoy!"</p>
+      <h1 class="text-white home">Sakura Fest</h1>
+      <p class="slogan">"Posiciona tu marca en el corazón de Sakura Fest: ¡Reserva tu stand hoy!"</p>
     </div>
   </section>
 
@@ -46,7 +46,7 @@
       <h2 class="text-center mb-5">Nuestros Servicios</h2>
       <div class="row justify-content-center">
 
-        <div class="col-md-6 col-lg-4 mb-4 about-section scroll-anim left">
+        <div class="col-md-6 col-lg-4 mb-4">
           <div class="card h-100 shadow-sm">
             <div class="card-body text-center">
               <i class="fas fa-store fa-3x mb-3"></i>
@@ -56,7 +56,7 @@
           </div>
         </div>
 
-        <div class="col-md-6 col-lg-4 mb-4 about-section scroll-anim right">
+        <div class="col-md-6 col-lg-4 mb-4">
           <div class="card h-100 shadow-sm">
             <div class="card-body text-center">
               <i class="fas fa-calendar-alt fa-3x mb-3"></i>
@@ -79,32 +79,32 @@
 
     <!-- Misión con icono -->
     <div class="row mb-5 align-items-center">
-      <div class="col-lg-4 text-center about-section scroll-anim left">
+      <div class="col-lg-4 text-center">
         <i class="fas fa-bullseye ico-anima fa-4x mb-3 text-white"></i>
       </div>
-      <div class="col-lg-8 text-lg-start about-section scroll-anim right">
+      <div class="col-lg-8 text-lg-start">
         <h3 class="mb-3">Misión</h3>
         <p class="lead">Nuestra misión es crear experiencias únicas y memorables que fortalezcan el sentido de comunidad y celebren la creatividad local. A través de eventos como el Sakura Fest, buscamos ofrecer espacios donde las personas puedan conectarse, expresarse y disfrutar juntos, mientras apoyamos a emprendedores, artistas y talentos locales.</p>
       </div>
     </div>
 
     <!-- Visión con icono -->
-    <div class="row mb-5 align-items-center about-section scroll-anim left">
+    <div class="row mb-5 align-items-center">
       <div class="col-lg-4 text-center">
         <i class="fas fa-eye fa-4x mb-3 ico-anima text-white"></i>
       </div>
-      <div class="col-lg-8 text-lg-start about-section scroll-anim right">
+      <div class="col-lg-8 text-lg-start">
         <h3 class="mb-3">Visión</h3>
         <p class="lead">Aspiramos a ser la principal plataforma de eventos comunitarios en la región, reconocida por promover la cultura, el arte y la diversidad. Nuestro objetivo es que cada evento que organizamos no solo entretenga, sino que también enriquezca la vida de las personas, inspirando un sentido de pertenencia y colaboración dentro de nuestra comunidad.</p>
       </div>
     </div>
 
     <!-- Reseña Histórica con icono -->
-    <div class="row align-items-center about-section scroll-anim left">
+    <div class="row align-items-center">
       <div class="col-lg-4 text-center">
         <i class="fas fa-history fa-4x ico-anima mb-3 text-white"></i>
       </div>
-      <div class="col-lg-8 text-lg-start about-section scroll-anim right">
+      <div class="col-lg-8 text-lg-start">
         <h3 class="mb-3">Reseña Histórica de Sakura Fest</h3>
         <p class="lead">El Sakura Fest nació el 28 de octubre de 2023, como una iniciativa individual en el corazón del Parque Musiú Carmelo. Desde sus inicios, el evento ha sido un espacio para reunir a la comunidad en torno a la cultura, el arte, y la diversión. Con la visión de crear experiencias únicas, el Sakura Fest ha crecido significativamente, incorporando diversas temáticas.</p>
         <p class="lead">Lo que comenzó como un proyecto personal ha evolucionado en un evento destacado en la región, atrayendo a entusiastas del arte, la música y la cultura pop. A través de la dedicación y el esfuerzo constante, el Sakura Fest se ha consolidado como un punto de encuentro para la comunidad, donde cada evento es una oportunidad para conectar, celebrar y disfrutar en compañía de otros.</p>
@@ -113,7 +113,7 @@
   </div>
 </section>
 
-<footer class="pt-5 pb-4 bg-white text-dark about-section scroll-anim left">
+<footer class="pt-5 pb-4 bg-white text-dark">
   <div class="container text-center text-md-start">
     <div class="row">
 
@@ -206,30 +206,6 @@
         nav.classList.remove('navbar-scrolled');
       }
     });
-     // Función para verificar si el elemento está en vista
-  function isInViewport(element) {
-    const rect = element.getBoundingClientRect();
-    return (
-      rect.top <= (window.innerHeight || document.documentElement.clientHeight) &&
-      rect.bottom >= 0
-    );
-  }
-
-  // Función para activar la animación en scroll
-  function animateOnScroll() {
-    const elements = document.querySelectorAll('.scroll-anim');
-    elements.forEach((element) => {
-      if (isInViewport(element)) {
-        element.classList.add('active');
-      }
-    });
-  }
-
-  // Escuchar el evento de scroll
-  window.addEventListener('scroll', animateOnScroll);
-
-  // Llamada inicial para los elementos en vista al cargar la página
-  document.addEventListener('DOMContentLoaded', animateOnScroll);
   </script>
 </body>
 </html>
